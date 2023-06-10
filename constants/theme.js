@@ -7,13 +7,13 @@ const COLORS = {
   gray2: "#C1C0C8",
 
   white: "#F3F4F8",
-  lightWhite: "#FAFAFC",
+  lightWhite: "#FAFAFC"
 };
 
 const FONT = {
   regular: "DMRegular",
   medium: "DMMedium",
-  bold: "DMBold",
+  bold: "DMBold"
 };
 
 const SIZES = {
@@ -22,7 +22,7 @@ const SIZES = {
   medium: 16,
   large: 20,
   xLarge: 24,
-  xxLarge: 32,
+  xxLarge: 32
 };
 
 const SHADOWS = {
@@ -30,22 +30,22 @@ const SHADOWS = {
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
-      height: 2,
+      height: 2
     },
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
-    elevation: 2,
+    elevation: 2
   },
   medium: {
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
-      height: 2,
+      height: 2
     },
     shadowOpacity: 0.25,
     shadowRadius: 5.84,
-    elevation: 5,
-  },
+    elevation: 5
+  }
 };
 
 export { COLORS, FONT, SIZES, SHADOWS };
