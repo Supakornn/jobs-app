@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     borderRadius: SIZES.small,
     backgroundColor: "#FFF",
     ...SHADOWS.medium,
-    shadowColor: COLORS.white,
+    shadowColor: COLORS.white
   },
   logoContainer: {
     width: 50,
@@ -20,28 +20,28 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.white,
     borderRadius: SIZES.medium,
     justifyContent: "center",
-    alignItems: "center",
+    alignItems: "center"
   },
-  logImage: {
+  logoImage: {
     width: "70%",
-    height: "70%",
+    height: "70%"
   },
   textContainer: {
     flex: 1,
-    marginHorizontal: SIZES.medium,
+    marginHorizontal: SIZES.medium
   },
   jobName: {
     fontSize: SIZES.medium,
     fontFamily: "DMBold",
-    color: COLORS.primary,
+    color: COLORS.primary
   },
   jobType: {
     fontSize: SIZES.small + 2,
     fontFamily: "DMRegular",
     color: COLORS.gray,
     marginTop: 3,
-    textTransform: "capitalize",
-  },
+    textTransform: "capitalize"
+  }
 });
 
 export default styles;
